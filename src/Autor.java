@@ -13,6 +13,10 @@ public class Autor {
 	public void setAutorNume(String nume){
 		this.nume= nume;
 	}
+	
+	public void printAutor(){
+		System.out.println("Numele autorului este " + nume);
+	}
 }
 	
 
